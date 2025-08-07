@@ -39,6 +39,23 @@
         text-align: justify;
     }
 </style>
+  <style>
+  .justify-text {
+    text-align: justify;
+  }
+
+  /* Perkecil jarak antar item menu navigasi */
+  .navmenu ul li {
+    margin-bottom: 6px; /* Atau 4px jika ingin lebih rapat */
+  }
+
+  /* Optional: Perkecil juga padding dalam link */
+  .navmenu ul li a {
+    padding: 6px 10px;
+    display: block;
+  }
+</style>
+
 </head>
 
 <body class="index-page">
@@ -68,6 +85,7 @@
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portofolio</a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Certificate of Competence</a></li>
+        <li><a href="#journal"><i class="bi bi-hdd-stack navicon"></i> Research Journal</a></li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
@@ -590,6 +608,37 @@
       </div>
 
     </section><!-- /Services Section -->
+
+    <!-- Journal Section -->
+
+    <!-- Section Title -->
+    <section id="journal" class="container py-5">
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">Publikasi Jurnal Ilmiah</h2>
+        <p class="text-muted">Rancang Bangun Sistem Informasi Manajemen Administrasi pada Gym Berbasis Web Menggunakan Metode Pengembangan Agile</p>
+      </div><!-- End Section Title -->
+      
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="card shadow rounded-4 border-0">
+              <div class="card-body p-4">
+                <p class="text-justify">
+                  Penelitian ini membahas pengembangan sistem informasi administrasi berbasis web untuk gym dengan pendekatan Agile. Sistem ini bertujuan meningkatkan efisiensi dalam pengelolaan data keanggotaan, check-in harian, penjualan produk, dan laporan keuangan. Dengan metode pengujian Blackbox dan Close Beta, sistem memperoleh tingkat kelayakan sebesar <strong>93,12%</strong> dan dinyatakan <em>Sangat Layak</em>. Artikel ini dipublikasikan dalam JATI (Jurnal Mahasiswa Teknik Informatika), Vol. 8 No. 5, Oktober 2024.
+                </p>
+                <div class="mt-4">
+                  <iframe
+                    src="assets/pdf/jurnal_penelitian_zidhan.pdf"
+                    width="100%"
+                    height="600px"
+                    style="border: none;"
+                    title="Jurnal Zidhan"
+                  ></iframe>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- /Journal Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
